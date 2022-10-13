@@ -6,8 +6,8 @@
 body{
     background: rgb(240, 159, 159);
     color: #fff;
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;font-family: 'Roboto Condensed', sans-serif;
+    
 }
 img{
     width: 200;

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(180,113,217);
+    background: linear-gradient(90deg, rgba(180,113,217,1) 0%, rgba(175,138,228,1) 49%, rgba(202,115,230,1) 96%);
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cajita{
+    width: 400px;
+    height: auto;
+    margin:auto;
+    border-radius: 1%;
+    padding: 10px;
+    background: pink;
+    box-shadow: 0 0 10px black;
+    text-align: justify;
+    color: black;   
+}
+
+.cajita:hover{
+    transform: scale(1.10);
+    border: 2px solid white;
+}
+
+span{
+    color: black;
+    text-shadow: 0 0 5px black;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(180,113,217);
+    background: linear-gradient(90deg, rgba(180,113,217,1) 0%, rgba(175,138,228,1) 49%, rgba(202,115,230,1) 96%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+p{
+    margin: 3px;
+    
+    opacity: 100%;
+}
+
+button{
+    background: pink;
+    padding: 15px;
+    color:black;
+    border-radius: 7px;
+    
+}
+
+button:hover{
+    border: 2px solid rgb(255, 255, 255);
+transform: scale(1.05);
+}
+
+#resultado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(200px );
+    
+}
