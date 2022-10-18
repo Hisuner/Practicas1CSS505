@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(144,81,226);
+    background: linear-gradient(90deg, rgba(144,81,226,1) 0%, rgba(148,128,232,1) 49%, rgba(160,115,233,1) 100%);
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.res{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+    margin: 50px auto;
+    position: relative;
+    top: 100px;
+}
